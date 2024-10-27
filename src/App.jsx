@@ -20,7 +20,7 @@ function App() {
     <div>
       <Profile user={profileData} />
       <FriendList friends={FriendsData} />
-      <TransactionHistory transaction={TransactionData} />
+      <TransactionHistory transactions={TransactionData} />
     </div>
   );
 }
